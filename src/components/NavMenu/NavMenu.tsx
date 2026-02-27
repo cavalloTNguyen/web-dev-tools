@@ -7,6 +7,9 @@ export function NavMenu() {
         <li>
           <Link to="/zlib-decoder">Zlib Decoder</Link>
         </li>
+        <li>
+          <Link to="/percent-change">Percent Change</Link>
+        </li>
       </ul>
     </div>
   );
