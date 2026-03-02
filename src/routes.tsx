@@ -1,9 +1,9 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import { App } from "./App";
 import { ZlibDecoder } from "./screens/ZlibDecoder/ZlibDecoder";
 import { PercentChange } from "./screens/PercentChange/PercentChange";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
       path: "/",
